@@ -1,0 +1,25 @@
+# Static demo site served by GitHub Pages -- the HTML and DemoImages/ are the
+# deliverable and must stay tracked. This only guards against accidental
+# additions.
+
+# --- Secrets: never commit -------------------------------------------------
+*.env
+!*.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# --- Dependencies / build --------------------------------------------------
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# --- Editor / OS -----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
